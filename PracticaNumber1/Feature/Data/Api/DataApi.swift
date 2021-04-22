@@ -6,7 +6,7 @@
 //
 import Alamofire
 
-public class ApiBuilder {
+public class DataApi {
     
     func generateRequest(request: String? = nil, valueMethod: HTTPMethod)->DataRequest? {
 
@@ -16,7 +16,6 @@ public class ApiBuilder {
         
         let request =  AF.request(Configuration.basePathSimulator , method: valueMethod, parameters: request,
                                    headers:headers).validate()
-        debugPrint(request)
         return request
     }
     

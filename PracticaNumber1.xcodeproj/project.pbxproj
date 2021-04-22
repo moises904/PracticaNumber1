@@ -17,9 +17,15 @@
 		B5686075262F7BFC00C3DDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5686073262F7BFC00C3DDAA /* LaunchScreen.storyboard */; };
 		B5686080262F7BFC00C3DDAA /* PracticaNumber1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B568607F262F7BFC00C3DDAA /* PracticaNumber1Tests.swift */; };
 		B568608B262F7BFC00C3DDAA /* PracticaNumber1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B568608A262F7BFC00C3DDAA /* PracticaNumber1UITests.swift */; };
-		B5686122262FD3AB00C3DDAA /* ApiBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5686121262FD3AB00C3DDAA /* ApiBuilder.swift */; };
+		B5686122262FD3AB00C3DDAA /* DataApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5686121262FD3AB00C3DDAA /* DataApi.swift */; };
 		B5686135262FD52C00C3DDAA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5686134262FD52C00C3DDAA /* Configuration.swift */; };
-		B5686156262FE0D800C3DDAA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5686155262FE0D800C3DDAA /* Model.swift */; };
+		B5686156262FE0D800C3DDAA /* BooksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5686155262FE0D800C3DDAA /* BooksResponse.swift */; };
+		B5A5C84A26310B5600042D1D /* IGetDataRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5C84926310B5600042D1D /* IGetDataRespository.swift */; };
+		B5A5C85326310BC400042D1D /* GetDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5C85226310BC400042D1D /* GetDataRepository.swift */; };
+		B5A5C85E2631149100042D1D /* GetDataUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5C85D2631149100042D1D /* GetDataUseCase.swift */; };
+		B5A5C87626311E8500042D1D /* GetDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5C87526311E8500042D1D /* GetDataViewModel.swift */; };
+		B5A5C87F263120C400042D1D /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5C87E263120C400042D1D /* BookModel.swift */; };
+		B5A5C8842631215200042D1D /* MappingBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5C8832631215200042D1D /* MappingBooks.swift */; };
 		FB892CD71D8022778AD861F4 /* Pods_PracticaNumber1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5ABD8644E08E388A1578B0 /* Pods_PracticaNumber1.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,9 +68,15 @@
 		B568608A262F7BFC00C3DDAA /* PracticaNumber1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaNumber1UITests.swift; sourceTree = "<group>"; };
 		B568608C262F7BFC00C3DDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B56860D9262FCC6200C3DDAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5686121262FD3AB00C3DDAA /* ApiBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiBuilder.swift; sourceTree = "<group>"; };
+		B5686121262FD3AB00C3DDAA /* DataApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataApi.swift; sourceTree = "<group>"; };
 		B5686134262FD52C00C3DDAA /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		B5686155262FE0D800C3DDAA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B5686155262FE0D800C3DDAA /* BooksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksResponse.swift; sourceTree = "<group>"; };
+		B5A5C84926310B5600042D1D /* IGetDataRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGetDataRespository.swift; sourceTree = "<group>"; };
+		B5A5C85226310BC400042D1D /* GetDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataRepository.swift; sourceTree = "<group>"; };
+		B5A5C85D2631149100042D1D /* GetDataUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataUseCase.swift; sourceTree = "<group>"; };
+		B5A5C87526311E8500042D1D /* GetDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataViewModel.swift; sourceTree = "<group>"; };
+		B5A5C87E263120C400042D1D /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		B5A5C8832631215200042D1D /* MappingBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingBooks.swift; sourceTree = "<group>"; };
 		EEDAA4BB4514C32981AD9947 /* Pods-PracticaNumber1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticaNumber1.release.xcconfig"; path = "Target Support Files/Pods-PracticaNumber1/Pods-PracticaNumber1.release.xcconfig"; sourceTree = "<group>"; };
 		F011D7A4ADD8B9514D61A835 /* Pods-PracticaNumber1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticaNumber1Tests.debug.xcconfig"; path = "Target Support Files/Pods-PracticaNumber1Tests/Pods-PracticaNumber1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,6 +213,9 @@
 		B568609F262F7F1500C3DDAA /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				B5A5C87A2631205900042D1D /* Model */,
+				B5A5C84826310B1100042D1D /* UseCase */,
+				B5A5C84726310B0500042D1D /* Repositoty */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -208,6 +223,7 @@
 		B56860A0262F7F1C00C3DDAA /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				B5A5C84626310AF400042D1D /* Repository */,
 				B5686133262FD51800C3DDAA /* Config */,
 				B5686120262FD2CB00C3DDAA /* Api */,
 			);
@@ -226,6 +242,7 @@
 		B56860A2262F858100C3DDAA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B5A5C87526311E8500042D1D /* GetDataViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -234,7 +251,8 @@
 			isa = PBXGroup;
 			children = (
 				B568615A262FE0EB00C3DDAA /* Response */,
-				B5686121262FD3AB00C3DDAA /* ApiBuilder.swift */,
+				B5686121262FD3AB00C3DDAA /* DataApi.swift */,
+				B5A5C8832631215200042D1D /* MappingBooks.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -250,9 +268,41 @@
 		B568615A262FE0EB00C3DDAA /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				B5686155262FE0D800C3DDAA /* Model.swift */,
+				B5686155262FE0D800C3DDAA /* BooksResponse.swift */,
 			);
 			path = Response;
+			sourceTree = "<group>";
+		};
+		B5A5C84626310AF400042D1D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5C85226310BC400042D1D /* GetDataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B5A5C84726310B0500042D1D /* Repositoty */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5C84926310B5600042D1D /* IGetDataRespository.swift */,
+			);
+			path = Repositoty;
+			sourceTree = "<group>";
+		};
+		B5A5C84826310B1100042D1D /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5C85D2631149100042D1D /* GetDataUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		B5A5C87A2631205900042D1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5C87E263120C400042D1D /* BookModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		F4F6DE68945D1654EC78A2DA /* Frameworks */ = {
@@ -503,10 +553,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5686122262FD3AB00C3DDAA /* ApiBuilder.swift in Sources */,
+				B5A5C84A26310B5600042D1D /* IGetDataRespository.swift in Sources */,
+				B5A5C8842631215200042D1D /* MappingBooks.swift in Sources */,
+				B5686122262FD3AB00C3DDAA /* DataApi.swift in Sources */,
 				B5686135262FD52C00C3DDAA /* Configuration.swift in Sources */,
 				B568606D262F7BFA00C3DDAA /* HomeViewController.swift in Sources */,
-				B5686156262FE0D800C3DDAA /* Model.swift in Sources */,
+				B5A5C87F263120C400042D1D /* BookModel.swift in Sources */,
+				B5A5C85E2631149100042D1D /* GetDataUseCase.swift in Sources */,
+				B5A5C87626311E8500042D1D /* GetDataViewModel.swift in Sources */,
+				B5A5C85326310BC400042D1D /* GetDataRepository.swift in Sources */,
+				B5686156262FE0D800C3DDAA /* BooksResponse.swift in Sources */,
 				B5686069262F7BFA00C3DDAA /* AppDelegate.swift in Sources */,
 				B568606B262F7BFA00C3DDAA /* SceneDelegate.swift in Sources */,
 			);

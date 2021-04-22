@@ -10,6 +10,8 @@ import Alamofire
 
 class HomeViewController: UIViewController {
 
+    private var getDataViewModel: GetDataViewModel = GetDataViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         getDataTest()
@@ -17,12 +19,7 @@ class HomeViewController: UIViewController {
 
     func getDataTest() -> Void{
         
-        
-        ApiBuilder().generateRequest(valueMethod: HTTPMethod.get)?.responseString {
-            response in
-            print(response)
-        }
-
+        self.getDataViewModel.getDataBooks()
         
         
     }
