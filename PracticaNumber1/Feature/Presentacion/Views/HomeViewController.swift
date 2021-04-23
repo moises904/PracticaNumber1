@@ -19,10 +19,10 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         registerObservers()
-        getDataTest()
+        getDataBooks()
     }
 
-    func getDataTest() -> Void{
+    func getDataBooks() -> Void{
         tableListBooks.delegate = self
         tableListBooks.dataSource = self
         self.getDataViewModel.getDataBooks()
