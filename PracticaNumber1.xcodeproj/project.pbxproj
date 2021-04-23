@@ -20,6 +20,8 @@
 		B5686122262FD3AB00C3DDAA /* DataApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5686121262FD3AB00C3DDAA /* DataApi.swift */; };
 		B5686135262FD52C00C3DDAA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5686134262FD52C00C3DDAA /* Configuration.swift */; };
 		B5686156262FE0D800C3DDAA /* BooksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5686155262FE0D800C3DDAA /* BooksResponse.swift */; };
+		B5988C3626325FD7003F0780 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5988C3526325FD7003F0780 /* BookCell.swift */; };
+		B5988C3C263271A5003F0780 /* LiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5988C3B263271A5003F0780 /* LiveData.swift */; };
 		B5A5C84A26310B5600042D1D /* IGetDataRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5C84926310B5600042D1D /* IGetDataRespository.swift */; };
 		B5A5C85326310BC400042D1D /* GetDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5C85226310BC400042D1D /* GetDataRepository.swift */; };
 		B5A5C85E2631149100042D1D /* GetDataUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5C85D2631149100042D1D /* GetDataUseCase.swift */; };
@@ -71,6 +73,8 @@
 		B5686121262FD3AB00C3DDAA /* DataApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataApi.swift; sourceTree = "<group>"; };
 		B5686134262FD52C00C3DDAA /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		B5686155262FE0D800C3DDAA /* BooksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksResponse.swift; sourceTree = "<group>"; };
+		B5988C3526325FD7003F0780 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		B5988C3B263271A5003F0780 /* LiveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveData.swift; sourceTree = "<group>"; };
 		B5A5C84926310B5600042D1D /* IGetDataRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGetDataRespository.swift; sourceTree = "<group>"; };
 		B5A5C85226310BC400042D1D /* GetDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataRepository.swift; sourceTree = "<group>"; };
 		B5A5C85D2631149100042D1D /* GetDataUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataUseCase.swift; sourceTree = "<group>"; };
@@ -204,6 +208,7 @@
 		B568609E262F7F0900C3DDAA /* Presentacion */ = {
 			isa = PBXGroup;
 			children = (
+				B5988C3A2632718A003F0780 /* Util */,
 				B56860A2262F858100C3DDAA /* ViewModel */,
 				B56860A1262F857400C3DDAA /* Views */,
 			);
@@ -235,6 +240,7 @@
 			children = (
 				B568606C262F7BFA00C3DDAA /* HomeViewController.swift */,
 				B568606E262F7BFA00C3DDAA /* Home.storyboard */,
+				B5988C3526325FD7003F0780 /* BookCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,6 +277,14 @@
 				B5686155262FE0D800C3DDAA /* BooksResponse.swift */,
 			);
 			path = Response;
+			sourceTree = "<group>";
+		};
+		B5988C3A2632718A003F0780 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B5988C3B263271A5003F0780 /* LiveData.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		B5A5C84626310AF400042D1D /* Repository */ = {
@@ -557,8 +571,10 @@
 				B5A5C8842631215200042D1D /* MappingBooks.swift in Sources */,
 				B5686122262FD3AB00C3DDAA /* DataApi.swift in Sources */,
 				B5686135262FD52C00C3DDAA /* Configuration.swift in Sources */,
+				B5988C3626325FD7003F0780 /* BookCell.swift in Sources */,
 				B568606D262F7BFA00C3DDAA /* HomeViewController.swift in Sources */,
 				B5A5C87F263120C400042D1D /* BookModel.swift in Sources */,
+				B5988C3C263271A5003F0780 /* LiveData.swift in Sources */,
 				B5A5C85E2631149100042D1D /* GetDataUseCase.swift in Sources */,
 				B5A5C87626311E8500042D1D /* GetDataViewModel.swift in Sources */,
 				B5A5C85326310BC400042D1D /* GetDataRepository.swift in Sources */,

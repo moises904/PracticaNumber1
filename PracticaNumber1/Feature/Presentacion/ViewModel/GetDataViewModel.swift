@@ -7,12 +7,18 @@
 
 import Foundation
 
+
+
+
 class GetDataViewModel {
     
     private let getDataUseCase: GetDataUseCase?
     
+    var lstBooks: Box<[BookModel]>
+    
     init() {
         self.getDataUseCase = GetDataUseCase()
+        self.lstBooks = Box<[BookModel]> (_value: [BookModel]())
     }
  
     public func getDataBooks() {
@@ -24,6 +30,7 @@ class GetDataViewModel {
             case .success(let dataBooks):
                 print("data view model")
                 print(dataBooks)
+                self.lstBooks.value = dataBooks!
             break
             
             case .failure(let error):
